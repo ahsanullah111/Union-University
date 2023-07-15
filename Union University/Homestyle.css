@@ -1,0 +1,413 @@
+/*----------NavBar-------------*/
+
+body {
+overflow-x: hidden;
+
+}
+
+
+
+#top_nav {
+  background-color: black;
+}
+
+.navbar-brand img {
+  width: 140px;
+  height: 50px;
+  margin-left: 5px;
+
+}
+
+.nav-item {
+  padding: 0px 35px;
+  font-family: 'oswald-semibold', sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.nav-item:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#SignIn-btn {
+  font-family: 'oswald-semibold', sans-serif;
+  border-radius: 0;
+  height: 30px;
+  margin-top: 5px;
+  padding-bottom: 28px;
+  margin-left: 140px;
+
+}
+
+/*---------------- NAVBAR--ENDED---------- */
+
+
+/* --------------BANNER START---------------  */
+
+#Banner {
+  background: url(IMAGES/Main\ banner\ 2.png);
+  background-size: cover;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* optional, center the image */
+}
+
+#BannerImage {
+  background-repeat: no-repeat;
+  width: 274px;
+  height: 570px;
+  margin-right: 60px;
+
+}
+
+#h3-size {
+  font-size: 28px;
+}
+
+#p-size {
+  font-size: 17px;
+
+}
+
+#LetsStartBtn {
+  background-color: #a460f9;
+  font-family: 'oswald-semibold', sans-serif;
+  border-radius: 0;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+#ReadMore-btn {
+  border: 1px solid rgba(255, 255, 255, 0);
+  /* Set the initial border style */
+  margin-top: 5px;
+  font-size: 15px;
+  margin-left: 2px;
+  height: 35px;
+
+
+}
+
+#ReadMore-btn:hover {
+  border-color: #a460f9;
+  /* Set the border color on hover */
+
+}
+
+
+/* --------------BANNER END---------------  */
+
+/* --------MEDIA--VIDEO BACKGROUND BANNER--START------------  */
+
+
+.video-banner {
+  background-image: url(IMAGES/video\ banner.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#video-frame2 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* MEDIA VIDEO END */
+
+
+
+/*==================== WHAT CARD START==================  */
+
+
+
+
+.whatcard-textdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: -5px;
+
+
+}
+
+.whatcard-textdiv .text1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.whatcard-textdiv .text2 {
+  color: #a460f9;
+  font-size: 50px;
+  line-height: 5px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 15px;
+
+}
+
+
+
+
+.background-userthink {
+  background-color: black;
+}
+
+#what-cardOut {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 40px 70px 40px;
+  height: 80%;
+}
+
+#what-cardIN {
+  height: 450px;
+  background: transparent;
+  color: white;
+  width: 300px;
+
+}
+
+#what-img {
+  filter: grayscale(100%);
+}
+
+.what-star {
+  color: #55ACEE;
+  margin: 20px 0px;
+
+}
+
+#what-star2 {
+  color: gray;
+}
+
+/* WHAT CARD END  */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section {
+  background: #000000;
+  position: relative;
+}
+
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #a460f9;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg {
+  background: #3b5998;
+}
+
+.twitter-bg {
+  background: #55acee;
+}
+
+.google-bg {
+  background: #dd4b39;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: ;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #a460f9;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #a460f9;
+  padding: 26px 26px;
+  border: 1px solid #a460f9;
+  top: 0;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.copyright-text p a {
+  color: #a460f9;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #a460f9;
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+.button-plane {
+  margin-top: -20px;
+}
+
+
+
+
+
+

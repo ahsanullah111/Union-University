@@ -1,0 +1,33 @@
+
+.signin-CardOutbody{
+    overflow-y: hidden;
+}
+
+ #signin-Cardinbody{
+    height: 500px !important;
+    position: relative;
+   
+}
+
+
+    #signin-card{
+        background-color: transparent;
+        border-color: #956dca;
+}
+
+#signin-Cardbtn{
+    background-color: #956dca;
+    color: white;    margin-top: 0px;
+       }
+
+#signup-container{
+    margin-top: -60px;
+}
+    
+#signup-containerbtn{
+    color:#956dca;
+}
+
+#placeholder::placeholder{
+    color: white;
+}

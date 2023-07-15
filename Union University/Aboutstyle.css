@@ -1,0 +1,123 @@
+
+/* STOP X SCROLLING */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+  }
+
+/* BODY COLOR  */
+
+  body{
+    background-color: black !important;
+  }
+
+/* BACKGROUND BANNER ABOUT */
+
+.about-banner{
+  background-image: url(IMAGES/About\ Banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+/* CHARACTER BANNER IMG */
+.About-Boy img{
+    width: 352px;
+    height: 525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 120px;
+   
+}
+
+ /* CARD OUTER BODY */
+.card{
+    width: 22rem;
+    display: flex;
+    margin: auto;
+   text-align: left;
+   margin-top: 160px;
+   margin-left: 200px;
+}
+
+/* CARD INNER BODY */
+.card-body{
+    height: 30rem;
+    align-items: center;
+   
+}
+
+/* CARD-TEXT */
+.card-title{
+    font-size: 70px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'oswald-semibold', sans-serif;
+}
+
+.card-title2{
+    color: #a460f9;
+    padding-top: 30px;
+    display: flex;
+    font-size: 40px;
+}
+
+.card-text{
+    color: white;
+   width: 24rem;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.card-small-text{
+    color: white;
+    font: 5px;
+    text-align: left;
+    position: relative;;
+    width: 24rem;
+ }
+
+
+ .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+ /* CARD BUTTON  */
+
+.CardReadMorebtn{
+    text-decoration: none;
+    background-color: #a460f9;
+    color: white;
+    font-size: 13px;
+    display: flex;
+     float: left;
+    margin-top: 60px;
+    padding: 10PX 15PX;
+
+}

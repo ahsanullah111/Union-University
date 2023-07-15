@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px){
+    .card{
+        width: 300px;
+        align-items: center;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    
+    }
+    
+    .back{
+      background-image: url(IMAGES/payment.png);
+      background-position-x: left;
+      background-repeat: no-repeat;
+      background: cover;
+      height: 100vh;
+      backdrop-filter: blur(4px);
+      
+  }
+
+}

@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+  .about-banner{
+    background-position-x: -800px;
+  }
+   
+  .card{
+        margin: 10px 10px 10px;
+    
+    }
+
+    .card-text{
+     width: 22rem;
+    }
+
+    .card-small-text{
+        width: 22rem;
+     }
+    
+.row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.About-Boy img{
+
+ margin: 150px 70px ;
+width: 272px;
+height: 425px;
+}
+
+
+
+
+
+
+
+
+
+
+}

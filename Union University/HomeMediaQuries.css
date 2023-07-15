@@ -1,0 +1,119 @@
+
+/* ---------------------IPHONE XR------------RESPONSIVE FOR 414-WIDTH-----------------#START--------------------- */
+
+
+@media only screen and (max-width: 414px) {
+  /*----------- NAVBAR START-------- */
+  #button-1{
+    margin: 10px 40px 0px 40px;
+  }
+   .nav-item{
+  margin: auto;
+  }
+  #SignIn-btn{
+    margin-left: 0px;
+  }
+    
+  /*----------- NAVBAR END-------- */
+  
+  /*----------- fRONT BANNER START-------- */
+  
+  #BannerText{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      overflow-x: hidden !important;
+  }
+  #h3-size{
+           font-size: 32px;
+          display: flex;
+          flex-direction: column;
+          text-align: center; 
+  }
+  #p-size{
+          font-size: 17px;
+          padding-left: 25px;
+          padding-right: 20px;
+          text-align: center;
+  }
+  #ReadMore-btn{
+  font-size: 15px;
+    border-radius: 0;
+    width: 100%;
+   }
+   #BannerImage{
+   margin-top: 30%;
+    margin-right: 85px;
+    overflow-x: hidden;
+    background-repeat:   no-repeat;
+   width: 274px;
+   height: 570px;
+  
+   }
+  
+ /*----------- FRONT BANNER END-------- */
+  
+ /*----------- MEDIA VIDEO EMBED SLIDER START-------- */
+  
+  .video-banner{
+  
+  height: 60vh;
+  width: 50%;
+  }
+
+  #video-frame2{
+ margin-top: 80%;
+  width: 75%;
+  height: 55%;
+  
+  } 
+  
+  /*----------- MEDIA VIDEO EMBED SLIDER END-------- */
+  
+  /*----------- WHAT USER THINK START-------- */   
+  
+  .whatcard-textdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    }
+  
+  
+  #what-cardOut {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  }
+  
+  #what-cardIN {
+  height: 450px;
+  background: transparent;
+  color: white;
+  width: 300px;
+  }
+  
+  #what-img {
+  filter: grayscale(100%);
+  }
+  
+  .what-star {
+  color: #55ACEE;
+  margin: 20px 0px;
+  }
+  
+  #what-star2 {
+  color: gray;
+  }
+  
+  /*----------- WHAT USER THINK END-------- */
+  
+  }
+
+/* --------------------------------------------RESPONSIVE FOR 375-WIDTH--------------#ENDED---------------------------- */
+
+
+
+

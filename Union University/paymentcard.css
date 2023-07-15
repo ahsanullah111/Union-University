@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.rounded{border-radius: 3rem}.border{border-color: white;}.nav-pills .nav-link{color: #555}.nav-pills .nav-link.active{color: white}input[type="radio"]{margin-right: 5px}.bold{font-weight:bold}
+
+.back{
+    background-image: url(IMAGES/payment.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: cover;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+}
+
+
+
+
+.credit-cards-tabs{
+    color: white;
+}
+
+
+.card{
+    width: 400px;
+    align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+
+  
+}
+
+.btn-sub{
+background-color:#a460f9;
+border-radius: 5px;
+color: white;
+border: 0;
+padding: 8px 17px;
+display: flex;
+
+}
+
+.nav-pills-red .nav-link {
+    pointer-events: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-pills-red .nav-link.active {
+    background-color: #a460f9;
+    border-radius: 4px;
+    pointer-events: none;
+}
+

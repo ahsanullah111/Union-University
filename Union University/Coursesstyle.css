@@ -1,0 +1,228 @@
+ /* USE FOR STOP X HORIZONTAL SCROLL */
+
+ html,
+ body {
+     max-width: 100%;
+     overflow-x: hidden;
+
+ }
+
+ /* -------------------------------------------------- */
+
+ /* BACKGROUND */
+ #Courses-banner {
+    background: black  no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+ }
+
+
+
+ /* -------------------------------------------------- */
+
+ /* BIG TEXT (FIND) */
+ .Front-Headingtext1 {
+     font-size: 130px;
+     font-family: 'oswald-semibold', sans-serif;
+     margin-left: 42px;
+
+ }
+
+ /* SMALL TEXT (YOUR COURSE) */
+ .Front-Headingtext2 {
+     padding-top: 70px;
+     padding-left: 30px;
+     color: white;
+     font-size: 40px;
+     margin-bottom: -10PX;
+     font-family: 'oswald-semibold', sans-serif;
+ }
+
+ /* -------------------------------------------------- */
+
+
+ /* COURSES CARD BODY */
+
+ .card-styling {
+     width: 14rem;
+     height: 20rem;
+     background-color: black;
+     color: white;
+     border-color: white;
+     border: 1px solid;
+     border-radius: 4px;
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ /* COURSES CARD ADJUSTMENT */
+ .card-align {
+     margin: 5PX 0PX;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ .card-body {
+     padding-top: 30px;
+     display: flex;
+     align-items: center;
+ }
+
+ .card-corner {
+     background-color: white;
+     color: black;
+     padding: 6px 8px;
+     margin-right: 180px;
+     text-align: left;
+ }
+
+ .card-title {
+     padding-top: 30px;
+     display: flex
+ }
+
+ .card-title2 {
+     padding-left: 10px;
+     color: #a460f9;
+
+ }
+
+ .card-line {
+     background-color: #a460f9;
+     height: 0.8%;
+     width: 25%;
+     border-radius: 1px;
+     margin: 10px;
+
+
+ }
+
+ .card-text {
+     text-align: center;
+     padding: 10px 10PX;
+ }
+
+ .CardReadMorebtn {
+     text-decoration: none;
+     background-color: #a460f9;
+     color: white;
+     font-size: 20px;
+     padding-top: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+
+ .doller-sign {
+     font-size: 15px;
+ }
+
+ .doller-sign2 {
+     font-size: 15px;
+ }
+
+
+ .course-footer {
+
+     width: 100%;
+     height: 80PX;
+     font-size: 30px;
+     background-color: aqua;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 18px;
+     margin-left: 13px;
+     padding-bottom: 0px;
+     padding-top: 15px;
+     padding-left: 20px;
+     color: #ffffff;
+     background-color: black;
+     border-radius: 50px 50px 0px 0px;
+     font-family: beb;
+     box-shadow: 0px 0px 10px #a460f9;
+
+ }
+
+
+ .course-footer-text {
+     color: #a460f9;
+     padding: 0px 7px;
+ }
+
+
+ .course-header {
+     width: 100%;
+     align-items: center;
+     height: 80PX;
+     font-size: 30px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     color: #ffffff;
+     background-color: black;
+     border-radius: 0px 0px 50px 50px;
+     font-family: beb;
+     box-shadow: 0px 0px 10px #a460f9;
+     position: absolute;
+ }
+
+
+ .course-sign {
+     color: #a460f9;
+
+ }
+
+
+ .course-math .course-count1 {
+     position: absolute;
+     left: 11%;
+     top: 21%;
+
+ }
+
+ .course-math .course-text1 {
+
+     position: absolute;
+     left: 18%;
+     top: 18%;
+     font-size: 20px;
+ }
+
+
+ .course-math .course-count2 {
+     position: absolute;
+     left: 44%;
+     top: 21%;
+ }
+
+ .course-math .course-text2 {
+
+     position: absolute;
+     left: 49.5%;
+     top: 18%;
+     font-size: 20px;
+ }
+
+ .course-math .course-count3 {
+     position: absolute;
+     left: 75%;
+     top: 21%;
+ }
+
+ .course-math .course-text3 {
+
+     position: absolute;
+     left: 83.5%;
+     top: 18%;
+     font-size: 20px;
+ }
+
+
+
+ /* CARD ENDS */

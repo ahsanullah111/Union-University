@@ -1,0 +1,145 @@
+@media only screen and (max-width: 768px){
+    
+  html, body {
+    
+    overflow-wrap: normal;
+    overflow-y: visible;
+  }
+
+
+
+    #Courses-banner {
+        background: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        width: auto;
+        height: min-content;
+      }
+
+
+    .card-styling{
+    display: flex;
+    flex-direction: column;
+    
+        
+      }
+
+      .card-align{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        padding: 15px 70px;
+        margin: auto;
+        
+      
+ }
+
+
+ .Front-Headingtext{
+   align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+    margin-left: 10px;
+    margin-top: 50px;
+  font-family: 'oswald-semibold', sans-serif;
+}
+ 
+.Front-Headingtext2{
+   
+    display: flex;
+     flex-direction: column;
+     color: white;
+     font: size 30px;
+     white-space: nowrap; 
+     font-family: 'oswald-semibold', sans-serif;
+     line-height: 1;
+     text-align: center;
+     margin-left: -30PX;
+     margin-bottom: 5px;
+     
+      }
+
+
+      .course-footer {
+      display: flex;
+      flex-wrap: wrap;
+        font-size: 20px;
+        overflow-y: hidden;
+       padding-top: 20PX;
+       padding-right: 25PX;
+  }
+
+
+  .course-header{
+    display: flex;
+      flex-wrap: wrap;
+        font-size: 26px;
+        overflow-y: hidden;
+        height: 60px;
+    
+  }
+      
+  .course-footer-text{
+    color: #a460f9;
+    overflow-y: hidden;
+ }
+
+
+ .course-math .course-count1{
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  font-size: 18px;
+  overflow: hidden;
+ 
+
+}
+
+.course-math .course-text1{
+ 
+  position: absolute;
+  left: 13%;
+  top: 18%;
+  font-size: 13px; 
+  overflow: hidden;
+}
+
+
+.course-math .course-count2{
+  position: absolute;
+  left: 35%;
+  top: 21%;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.course-math .course-text2{
+  overflow: hidden;
+  position: absolute;
+  left: 43%;
+  top: 18%;
+  font-size: 13px; 
+}
+
+.course-math .course-count3{
+  position: absolute;
+  left: 67%;
+  top: 21%;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.course-math .course-text3{
+ 
+  position: absolute;
+  left: 81%;
+  top: 18%;
+  overflow: hidden;
+  font-size: 20px; 
+  font-size: 13px; 
+}
+
+    }

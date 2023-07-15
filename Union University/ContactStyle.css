@@ -1,0 +1,99 @@
+/* STOP X SCROLLING */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+  }
+
+/* BODY COLOR  */
+
+  body{
+    background-color: black !important;
+    
+  }
+
+
+/* -------------------------------------------------- */
+
+/* BACKGROUND */
+#contact-banner{
+    background-image: url(IMAGES/contactbanner.png);
+       background-size:     cover;                      /* <------ */
+       background-repeat:   no-repeat;
+       background-position: center center;              /* optional, center the image */
+       width: 110%;
+       height: 100vh;
+       
+    }
+
+    /* -------------------------------------------------- */
+
+    .contact-headtext{
+       
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 670px;
+        text-align: center;
+        height: 70%px;
+        width: 40%;
+}
+
+.contact-headtext .firsttext{
+    color: white;
+    font-size: 45px;
+   font-family: 'oswald-semibold', sans-serif;
+  
+
+}
+
+.contact-headtext .secondtext{
+    color: #956dca;
+    font-size: 50px;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-headtext .thirdtext{
+    color: white;
+    width: 90%;
+    align-self: center;
+}
+
+.contact-forms{
+    color: white;
+   border: 3px solid  #956dca ;
+   width: 35%;
+   display: flex;
+   margin-left: 705px;
+   background-color: black;
+   padding-left: 5px;
+  
+   
+   }
+
+   .contact-forms::placeholder{
+    color: #6a6a6a;
+}
+
+    
+#contact-forms2{
+    padding: 10px 0px;
+    
+}
+
+#SendMessage-btn{
+    font-family: 'oswald-semibold', sans-serif;
+  border-radius: 0;
+ height: 30px;
+margin-top: 10px;
+padding-bottom: 28px;
+margin-left: 875px;
+background-color: #956dca;
+color: white;
+  }
+
